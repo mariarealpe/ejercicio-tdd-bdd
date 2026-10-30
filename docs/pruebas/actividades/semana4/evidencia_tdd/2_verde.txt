@@ -1,0 +1,15 @@
+============================= test session starts =============================
+platform win32 -- Python 3.14.0, pytest-9.2.0, pluggy-1.7.0 -- C:\Users\MAJO\Desktop\ejercicio pruebas\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\MAJO\Desktop\ejercicio pruebas
+configfile: pytest.ini
+testpaths: tests
+plugins: bdd-9.0.0
+collecting ... collected 4 items
+
+tests/unit/test_calcular_mad.py::test_mad_con_tres_datos_da_8_33 PASSED  [ 25%]
+tests/unit/test_calcular_mad.py::test_mad_cuando_pronostico_es_perfecto_da_cero PASSED [ 50%]
+tests/unit/test_calcular_mad.py::test_mad_con_listas_de_distinto_tamano_lanza_error PASSED [ 75%]
+tests/unit/test_calcular_mad.py::test_mad_con_listas_vacias_lanza_error PASSED [100%]
+
+============================== 4 passed in 0.02s ==============================
